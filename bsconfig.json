@@ -1,0 +1,23 @@
+{
+  "name": "reason-react-ssr-starter",
+  "version": "1.0.0",
+  "sources": [
+    "src",
+    "src/components"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@jsiebern/bs-material-ui",
+    "bs-express",
+    "reason-react"
+  ],
+  "refmt": 3,
+  "reason": {"react-jsx": 3},
+  "ppx-flags": [
+    "./node_modules/@jsiebern/bs-material-ui-ppx/ppx6"
+  ]
+}
