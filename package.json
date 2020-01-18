@@ -11,6 +11,19 @@
   ],
   "author": "hpierre74",
   "license": "MIT",
+  "resolutions": {
+    "set-value": "2.0.1"
+  },
+  "dependencies": {
+    "@jsiebern/bs-material-ui": "^1.2.0",
+    "@material-ui/core": "^4.8.3",
+    "bs-express": "^1.0.0",
+    "express": "^4.17.1",
+    "ignore-styles": "^5.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "reason-react": "^0.7.0"
+  },
   "devDependencies": {
     "@jsiebern/bs-material-ui-ppx": "*",
     "bs-platform": "^7.0.1",
@@ -23,19 +36,9 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   },
-  "dependencies": {
-    "@jsiebern/bs-material-ui": "^1.2.0",
-    "@material-ui/core": "^4.8.3",
-    "bs-express": "^1.0.0",
-    "express": "^4.17.1",
-    "ignore-styles": "^5.0.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "reason-react": "^0.7.0"
-  },
   "husky": {
     "hooks": {
-      "pre-push": "yarn test"
+      "pre-push": "exit 0"
     }
   },
   "scripts": {
