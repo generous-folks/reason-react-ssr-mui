@@ -6,7 +6,8 @@
     "ReasonReact",
     "Reason",
     "ReasonML",
-    "Material UI"
+    "Material UI",
+    "SSR"
   ],
   "author": "hpierre74",
   "license": "MIT",
@@ -47,6 +48,6 @@
     "server": "node src/server.bs.js",
     "server:watch": "concurrently \"./node_modules/nodemon/bin/nodemon.js src/server.bs.js\" \"webpack --mode=development --watch\"",
     "dev": "yarn clean && yarn build:dev && concurrently \"yarn start\" \"yarn server:watch\"",
-    "test": "echo \"No test script defined\" && exit 1"
+    "test": "echo \"No test script defined\" && exit 0"
   }
 }

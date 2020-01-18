@@ -1,18 +1,20 @@
-# Reason React SSR Starter
+# Reason React SSR Material-UI
 
-## Initialize
+## Getting started
+
+#### Install dependencies
 
 ```bash
 yarn
 ```
 
-## Start Development Server + Build Watcher
+#### Start Development Server + Build Watcher
 
 ```bash
 yarn dev
 ```
 
-## Build for Production
+#### Build for Production
 
 ```bash
 yarn build
