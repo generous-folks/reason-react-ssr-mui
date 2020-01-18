@@ -1,11 +1,12 @@
 {
-  "name": "reason-react-ssr-starter",
+  "name": "reason-react-ssr-mui",
   "version": "1.0.0",
   "keywords": [
     "BuckleScript",
     "ReasonReact",
     "Reason",
-    "ReasonML"
+    "ReasonML",
+    "Material UI"
   ],
   "author": "hpierre74",
   "license": "MIT",
